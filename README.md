@@ -21,3 +21,12 @@ This is a simple Express.js application demonstrating basic route handling, erro
 
 ```bash
 npm install
+
+routes:
+| Method | Route          | Description                          |
+| ------ | -------------- | ------------------------------------ |
+| GET    | `/`            | Returns a welcome message            |
+| GET    | `/error`       | Triggers a manual error              |
+| GET    | `/async-error` | Simulates and handles an async error |
+| ANY    | (not found)    | Triggers a 404 "Route not found"     |
+
